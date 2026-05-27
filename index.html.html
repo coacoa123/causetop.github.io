@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Как писать мне — правило трёх П</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f2f4f8;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.5;
+            padding: 1.5rem;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            max-width: 620px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 2rem;
+            box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.01);
+        }
+
+        .header {
+            background: #0a0c10;
+            padding: 2rem 2rem 1.5rem 2rem;
+            text-align: center;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #2d3748;
+            color: #e2e8f0;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.8rem;
+            border-radius: 40px;
+            letter-spacing: 0.3px;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            font-size: 1.9rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.3px;
+        }
+
+        .sub {
+            color: #9ca3af;
+            font-size: 0.95rem;
+        }
+
+        .content {
+            padding: 2rem 2rem 2.5rem 2rem;
+        }
+
+        .rule {
+            background: #f9fafb;
+            border-left: 5px solid #2563eb;
+            padding: 1.2rem 1.5rem;
+            margin-bottom: 1.8rem;
+            border-radius: 1rem;
+            transition: all 0.2s;
+        }
+
+        .rule h2 {
+            font-size: 1.35rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #1e293b;
+        }
+
+        .rule p {
+            color: #334155;
+            font-size: 1rem;
+        }
+
+        .highlight {
+            background: #eef2ff;
+            padding: 1.2rem 1.5rem;
+            border-radius: 1rem;
+            margin: 1.8rem 0;
+            border: 1px solid #cbd5e1;
+            text-align: center;
+        }
+
+        .highlight p {
+            font-weight: 600;
+            color: #0f172a;
+            font-size: 1.1rem;
+        }
+
+        .three-p {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .three-p span {
+            background: #2563eb;
+            color: white;
+            padding: 0.3rem 1rem;
+            border-radius: 40px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .footer {
+            background: #f8fafc;
+            padding: 1.2rem 2rem;
+            text-align: center;
+            border-top: 1px solid #e2e8f0;
+            font-size: 0.8rem;
+            color: #475569;
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 1rem;
+            }
+            .content {
+                padding: 1.5rem;
+            }
+            h1 {
+                font-size: 1.6rem;
+            }
+            .three-p {
+                gap: 0.8rem;
+            }
+            .three-p span {
+                font-size: 0.75rem;
+                padding: 0.2rem 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <div class="badge">протокол общения</div>
+            <h1>Пиши чётко,<br>будь мужчиной</h1>
+            <div class="sub">никакой воды — только дело</div>
+        </div>
+        <div class="content">
+            <div class="rule">
+                <h2>📢 1. Проси</h2>
+                <p>Хочешь что‑то попросить? <strong>Проси прямо</strong>. Без намёков, без предисловий. Мужчина говорит, что ему нужно.</p>
+            </div>
+
+            <div class="rule">
+                <h2>⚡ 2. Предлагай</h2>
+                <p>Не ной, не жалуйся. Есть идея? <strong>Предложи решение</strong>. Конкретное, внятное, без воды.</p>
+            </div>
+
+            <div class="rule">
+                <h2>🎯 3. По делу</h2>
+                <p>Никаких «привет, как дела?», если следом нет цели. <strong>Только суть</strong>. Цени своё и моё время.</p>
+            </div>
+
+            <div class="highlight">
+                <p><strong>Правило трёх «П»</strong></p>
+                <div class="three-p">
+                    <span>Проси</span>
+                    <span>Предлагай</span>
+                    <span>По делу</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            🧠 Скопируй ссылку и вставь в строку «о себе» в Telegram.<br>
+            <span style="opacity: 0.6;">просто и по-мужски</span>
+        </div>
+    </div>
+</body>
+</html>
